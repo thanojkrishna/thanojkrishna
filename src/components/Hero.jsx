@@ -72,7 +72,7 @@ const Hero = () => {
             Contact Me <FaArrowRight />
           </button>
           <a
-            href="/ThanojCV.html"
+            href="ThanojCV.html"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-neutral-800 dark:bg-neutral-200 text-white dark:text-neutral-900 py-2 px-6 rounded-full hover:bg-neutral-700 dark:hover:bg-neutral-300 transition duration-200 flex items-center gap-2"
