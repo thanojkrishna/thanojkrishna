@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <!-- saved from url=(0046)file:///C:/Users/thano/Downloads/ThanojCV.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thanoj Muddana - CV</title>
   <style>
-    /* Importing Roboto from Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-    /* Base Styles */
     body {
       font-family: 'Roboto', sans-serif;
-      background-color: #f4f4f4;
+      background-color: #ffffff;
       margin: 0;
       padding: 20px;
-      color: #333;
+      color: #2d2d2d;
       line-height: 1.6;
     }
     .container {
       max-width: 1000px;
       margin: auto;
-      background: #fff;
+      background: #ffffff;
       padding: 30px 50px;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     }
-    /* Header */
     .header {
-      background-color: #0056b3; /* Dark blue */
+      background-color: #0f172a; /* Tech-friendly deep gray */
       padding: 20px;
       border-radius: 10px 10px 0 0;
       display: flex;
@@ -42,30 +40,17 @@
       border: 2px solid #fff;
       margin-right: 20px;
     }
-    .header .details {
-      flex-grow: 1;
-    }
     .header .details h1 {
       margin: 0;
       font-size: 32px;
-      color: #fff;
+      color: #ffffff;
     }
-    .header .details p {
-      margin: 5px 0;
+    .header .details p, .header .details a {
+      color: #e2e8f0; /* soft gray */
       font-size: 14px;
-      color: #fff;
     }
-    .header .details a {
-      color: #fff;
-      text-decoration: underline;
-      font-weight: 500;
-    }
-    .header .details a:hover {
-      color: #e0e0e0;
-    }
-    /* Section Headers */
     .section h2 {
-      background-color: #007BFF; /* Light blue */
+      background-color: #14b8a6; /* Teal-500 */
       color: #fff;
       padding: 10px;
       border-radius: 4px;
@@ -75,122 +60,22 @@
     .section {
       margin-bottom: 30px;
     }
-    /* Education */
-    .education-block {
-      margin-bottom: 20px;
+    .education-block h3,
+    .company-header,
+    .project-title {
+      color: #0f172a;
     }
-    .education-block h3 {
-      margin: 0;
-      font-size: 20px;
-      color: #007BFF; /* Light blue */
-    }
-    .education-block p {
-      margin: 5px 0;
-      font-size: 14px;
-      color: #555;
-    }
-    /* Key Skills */
-    ul.skills {
-      list-style-type: disc;
-      padding-left: 25px;
-    }
-    ul.skills li {
-      margin-bottom: 8px;
-      font-size: 14px;
-      color: #555;
-    }
-    /* Work Experience */
-    .company-block {
-      margin-bottom: 25px;
-      padding-bottom: 15px;
-      border-bottom: 1px solid #ddd;
-    }
-    .company-header {
-      display: flex;
-      justify-content: space-between;
-      font-weight: bold;
-      font-size: 16px;
-      margin-bottom: 5px;
-      color: #0056b3; /* Dark blue */
-    }
-    .role-location {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 10px;
+    ul.skills li, ul.experience-details li, .education-block p {
+      color: #334155;
     }
     .role-location .role {
-      font-weight: bold;
-      font-size: 15px;
-      color: #333;
-    }
-    .role-location .location {
-      font-size: 14px;
-      color: #666;
-    }
-    .project-title {
-      font-weight: bold;
-      margin-top: 10px;
-      font-size: 15px;
-      color: #007BFF; /* Light blue */
+      color: #1e293b;
     }
     .sub-section-title {
-      font-style: italic;
-      margin: 6px 0 3px;
-      font-size: 14px;
-      color: #666;
+      color: #64748b;
     }
-    ul.experience-details {
-      margin: 5px 0 0 20px;
-      padding: 0;
-      font-size: 14px;
-      color: #555;
-    }
-    ul.experience-details li {
-      margin-bottom: 5px;
-    }
-    /* Academic Projects */
-    .project-block {
-      margin-bottom: 25px;
-    }
-    .project-block h3 {
-      margin: 0;
-      font-size: 20px;
-      color: #007BFF; /* Light blue */
-    }
-    .project-block ul {
-      margin: 5px 0 0 20px;
-      padding: 0;
-      font-size: 14px;
-      color: #555;
-    }
-    .project-block ul li {
-      margin-bottom: 5px;
-    }
-    /* Certifications */
-    .certification-block {
-      margin-bottom: 25px;
-    }
-    .certification-block h3 {
-      margin: 0;
-      font-size: 20px;
-      color: #007BFF; /* Light blue */
-    }
-    .certification-block ul {
-      margin: 5px 0 0 20px;
-      padding: 0;
-      font-size: 14px;
-      color: #555;
-    }
-    .certification-block ul li {
-      margin-bottom: 5px;
-    }
-    /* Links */
     a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
+      color: #14b8a6;
     }
   </style>
 </head>
@@ -198,7 +83,7 @@
   <div class="container">
     <!-- Header -->
     <div class="header">
-      <img src="./ThanojCV_files/IMG_3009.jpg" alt="Thanoj Muddana">
+      <img src="./ThanojCV_files/ThanojProfile.jpg" alt="Thanoj Muddana">
       <div class="details">
         <h1>Thanoj Muddana</h1>
         <p><strong>Email:</strong> thanojkrishna.muddana@outlook.com</p>
@@ -209,321 +94,174 @@
     
     <!-- Professional Summary -->
     <div class="section">
-      <h2>Professional Summary</h2>
-      <p>
-        Accomplished data professional with over 5 years of comprehensive experience across Business Intelligence, Data Analysis, Data Engineering, and Data Science. Adept at designing and implementing scalable ETL pipelines, crafting interactive dashboards, and deploying robust machine learning models that drive actionable business insights. Proficient in SQL, Python, Power BI, and advanced statistical modeling, with a proven ability to enhance data governance and foster cross-functional collaboration for impactful outcomes.
+	  <h2>Professional Summary</h2>
+	  <p>
+        Data Engineering specialist with 6+ years of experience designing cloud-native data platforms, orchestrating scalable ETL pipelines, and enabling enterprise analytics across multi-cloud environments. Proven track record delivering AI-powered solutions by integrating LLMs into data workflows and optimizing pipelines for speed, reliability, and automation. Adept in Python, SQL, Databricks, Snowflake, and Azure Data Factory, with deep expertise in business intelligence, statistical modeling, and cross-functional stakeholder alignment.
       </p>
-    </div>
+	</div>
+
     
     <!-- Education (Placed upfront after Professional Summary) -->
     <div class="section">
-      <h2>Education</h2>
-      <div class="education-block">
-        <h3>MS in Statistical Data Science</h3>
-        <p><strong>Institution:</strong> San Francisco State University, San Francisco, CA</p>
-        <p><strong>Date:</strong> Expected May 2025 | <strong>GPA:</strong> 3.96</p>
-        <p><strong>Relevant Coursework:</strong> Probability &amp; Statistics, Data Mining, Statistical Machine Learning, Multivariate Statistics, Computational Statistics, Advanced Probability Models</p>
-      </div>
-      <div class="education-block">
-        <h3>Bachelor of Science in Mechanical Engineering</h3>
-        <p><strong>Institution:</strong> Vellore Institute of Technology, Vellore, India</p>
-        <p><strong>Date:</strong> May 2018 | <strong>GPA:</strong> 3.99</p>
-      </div>
-    </div>
+	  <h2>Education</h2>
+
+	  <div class="education-block">
+		<h3><strong>MS in Statistical Data Science</strong></h3>
+		<p><strong>San Francisco State University</strong>, San Francisco, CA | <strong>GPA:</strong> 3.96 | <strong>Graduated:</strong> May 2025</p>
+		<p><strong>Coursework:</strong> Data Engineering for Analytics, Cloud Data Pipelines, Statistical Machine Learning, Multivariate Statistics, Distributed Systems</p>
+	  </div>
+
+	  <div class="education-block">
+		<h3><strong>Bachelor of Science in Mechanical Engineering</strong></h3>
+		<p><strong>Vellore Institute of Technology</strong>, Vellore, India | <strong>GPA:</strong> 3.99 | <strong>Graduated:</strong> May 2018</p>
+	  </div>
+	</div>
+
+
     
-    <!-- Key Skills -->
     <div class="section">
-      <h2>Key Skills</h2>
-      <ul class="skills">
-        <li><strong>Programming:</strong> Python, R, SQL</li>
-        <li><strong>Data Engineering:</strong> Databricks, Snowflake, Apache Spark, SSIS, ETL Pipelines, Azure Data Factory, Delta Lake</li>
-        <li><strong>BI &amp; Visualization:</strong> Power BI, Tableau, DAX, SSAS, Data Storytelling</li>
-        <li><strong>Machine Learning &amp; Statistical Modeling:</strong> Scikit-learn, TensorFlow/Keras, XGBoost, Regression, Classification, Time Series Analysis, Hyperparameter Tuning, A/B Testing</li>
-        <li><strong>Cloud &amp; Big Data:</strong> Azure Synapse, Azure Data Lake Storage, Data Warehousing</li>
-        <li><strong>Database &amp; ETL:</strong> Advanced SQL, Query Optimization, Data Governance</li>
-        <li><strong>Soft Skills:</strong> Cross-functional Collaboration, Stakeholder Engagement, Technical Documentation, Leadership</li>
-      </ul>
-    </div>
+	  <h2>Key Skills</h2>
+	  <ul class="skills">
+		<li><strong>Programming & Scripting:</strong> Python (pandas, NumPy, requests), R, SQL (T-SQL, PL/SQL), Bash</li>
+		<li><strong>ETL & Workflow Orchestration:</strong> SSIS, Azure Data Factory, Apache Airflow, AWS Glue, dbt</li>
+		<li><strong>Data Warehousing & Modeling:</strong> Snowflake, Azure Synapse, SQL Server, Dimensional Modeling (Star/Snowflake), SCDs</li>
+		<li><strong>Cloud & DevOps:</strong> Azure, AWS, GCP, GitHub Actions (CI/CD), Docker (Airflow, Kafka), Terraform (basic)</li>
+		<li><strong>Data Lakes & Formats:</strong> Azure Data Lake Gen2, AWS S3, Delta Lake, JSON, Parquet</li>
+		<li><strong>Business Intelligence:</strong> Power BI, Tableau, SAP BO, DAX, Power Query, SSAS Tabular</li>
+		<li><strong>Machine Learning & AI:</strong> Scikit-Learn, XGBoost, MLP, OpenAI APIs, LLMs (RAG, embeddings), Vector Search (FAISS)</li>
+		<li><strong>Data Quality & Governance:</strong> Data Validation, KPI Documentation, Metadata Audits, SLA Dashboards</li>
+		<li><strong>Collaboration & Agile:</strong> Stakeholder Communication, Sprint Planning, RCA, Documentation & Training</li>
+	  </ul>
+	</div>
+
+	
+	<!-- Certifications -->
+    <div class="section">
+	  <h2>Certifications</h2>
+	  <div class="certification-block">
+		<ul class="skills">
+		  <li>Snowflake SnowPro Core Certification</li>
+		  <li>Microsoft Azure Data Engineer Associate (DP-203)</li>
+		  <li>Power BI Data Analyst Associate (PL-300)</li>
+		  <li>Microsoft Azure Data Fundamentals (DP-900)</li>
+		  <li>Microsoft Azure Fundamentals (AZ-900)</li>
+		  <li>President’s Leadership Fellows Program – San Francisco State University</li>
+		</ul>
+	  </div>
+	</div>
+
     
     <!-- Work Experience -->
     <div class="section">
       <h2>Work Experience</h2>
       
-      <!-- Stanford Department of Medicine -->
-      <div class="company-block">
-        <div class="company-header">
-          <div>Stanford Department of Medicine</div>
-          <div>Jan 2025 - May 2025</div>
-        </div>
-        <div class="role-location">
-          <div class="role">Data Science Intern</div>
-          <div class="location">Stanford, CA</div>
-        </div>
-        <div class="project-title">Key Responsibilities &amp; Projects:</div>
-        <ul class="experience-details">
-          <li>Developed AI-driven tools to match patient medical history with clinical trials using Python and OpenAI APIs.</li>
-          <li>Collaborated with researchers to design dashboards tracking clinical outcomes and patient navigation efficiency.</li>
-          <li>Built predictive analytics models for patient classification and risk assessment, leveraging LLM-based approaches for personalized navigation.</li>
-        </ul>
-      </div>
+
+    <!-- Stanford Department of Medicine -->
+	<div class="company-block">
+	  <div class="company-header">
+		<div><strong>Stanford Department of Medicine</strong> — AI & Data Science Intern | Stanford, CA | Jan 2024 – Aug 2025</div>
+	  </div>
+	  <div class="project-title">Project: AI for Clinical Trial Matching & Patient Engagement</div>
+	  <ul class="experience-details">
+		<li><strong>LLM Integration & RAG:</strong> Built Retrieval-Augmented Generation (RAG) pipelines using OpenAI APIs to match patient profiles with clinical trial inclusion criteria by retrieving structured/unstructured eligibility data from custom vector stores.</li>
+		<li><strong>Vector Databases:</strong> Implemented semantic search over medical documents using FAISS-based vector indexing and similarity scoring, enabling faster and more accurate trial-patient mapping.</li>
+		<li><strong>Data Preparation & Transformation:</strong> Preprocessed patient demographics, EHR notes, and trial metadata using Python and pandas; normalized inputs for use in NLP pipelines and embedding generation.</li>
+		<li><strong>BI & Outcome Analytics:</strong> Designed Power BI dashboards to visualize patient engagement funnels, trial acceptance rates, and RAG output confidence scores to guide physician decision-making.</li>
+		<li><strong>Statistical Validation:</strong> Conducted accuracy and sensitivity analysis on RAG predictions vs. baseline models to ensure clinical alignment and safe deployment recommendations.</li>
+		<li><strong>Collaboration:</strong> Worked with research scientists and medical coordinators to align LLM-based tools with IRB standards, improving user adoption and model trustworthiness in clinical workflows.</li>
+	  </ul>
+	</div>
+
+
+
       
-      <!-- Accenture -->
-      <div class="company-block">
-        <div class="company-header">
-          <div>Accenture</div>
-          <div>June 2021 - Aug 2023</div>
-        </div>
-        <div class="role-location">
-          <div class="role">Application Development Senior Analyst</div>
-          <div class="location">Remote / Onsite</div>
-        </div>
-        <!-- Project 1 -->
-        <div class="project-title">Project 1: Integrated Cognitive and Analytical Processing</div>
-        <p class="sub-section-title">Client: AT&amp;T</p>
-        <ul class="experience-details">
-          <li><strong>Project Goal:</strong> Built ML-driven content recommendation systems, optimized customer targeting to reduce churn, and enhanced sales through data-driven insights.</li>
-          <li><strong>Key Business Problems Solved:</strong>
-            <ul>
-              <li>Personalized content recommendations to increase customer engagement.</li>
-              <li>Reduced call churn rates by optimizing customer targeting strategies.</li>
-              <li>Automated BI reporting &amp; ETL pipelines, improving efficiency.</li>
-              <li>Enabled structured ML feedback loops, accelerating model training.</li>
-              <li>Migrated reporting to modern cloud platforms, improving scalability.</li>
-            </ul>
-          </li>
-          <li><strong>Key Contributions &amp; Responsibilities:</strong>
-            <ul>
-              <li><em>BI Reporting &amp; ETL Pipelines:</em> Implemented end-to-end reporting with SSIS, Snowflake, Power BI, and Tableau; optimized data models in SSAS (Tabular Cubes).</li>
-              <li><em>Power BI Expertise:</em> Developed high-performance Power BI reports using DAX and advanced visualizations, built centralized datasets for executive decision-making.</li>
-              <li><em>RCA &amp; SQL Debugging:</em> Performed root cause analysis on data inconsistencies, wrote optimized SQL queries for high-performance reporting.</li>
-              <li><em>Automation &amp; Performance Optimization:</em> Automated content recommendation alerts, saving ~200 hours annually; standardized ETL job execution.</li>
-              <li><em>Cloud Migration &amp; Data Engineering POCs:</em> Conducted POCs with Azure Synapse, Databricks, Snowflake for large-scale reporting; identified Databricks as best for 150M+ daily clickstream records.</li>
-              <li><em>Big Data Processing &amp; ML Feedback Loop:</em> Processed 150M+ daily clickstream records using Databricks &amp; Delta Lake; designed ETL pipeline to transform JSON clickstream data into structured tables.</li>
-            </ul>
-          </li>
-          <li><strong>Business Impact Metrics:</strong>
-            <ul>
-              <li>Saved 200+ hours annually through automation of BI tasks.</li>
-              <li>Improved reporting efficiency by 30-40% with dynamic ETL jobs.</li>
-              <li>Enabled real-time structured datasets for ML teams, reducing model training wait times.</li>
-            </ul>
-          </li>
-        </ul>
-        <!-- Project 2 -->
-        <div class="project-title">Project 2: Unified Sales Self-Service</div>
-        <p class="sub-section-title">Client: ServiceNow</p>
-        <ul class="experience-details">
-          <li><strong>Project Goal:</strong> Enabled self-service sales reporting by migrating from Tableau to Power BI, optimizing dashboards, and establishing governance.</li>
-          <li><strong>Key Business Problems Solved:</strong>
-            <ul>
-              <li>Ensured feature compatibility and performance optimization in Power BI.</li>
-              <li>Implemented RLS/OLS to enforce secure data access control.</li>
-              <li>Enhanced Power BI adoption through training sessions and reporting standardization.</li>
-            </ul>
-          </li>
-          <li><strong>Key Contributions &amp; Responsibilities:</strong>
-            <ul>
-              <li><em>Tableau to Power BI Migration:</em> Conducted POCs, optimized queries and DAX measures for efficient data refresh.</li>
-              <li><em>Data Modeling &amp; Report Development:</em> Designed scalable data models with aggregated tables, improved performance with optimized DAX.</li>
-              <li><em>Secure Reporting &amp; Governance:</em> Implemented Row-Level Security (RLS) &amp; Object-Level Security (OLS), established Power BI governance best practices.</li>
-              <li><em>Self-Service Enablement:</em> Created standardized Power BI report templates, led training sessions to foster organizational adoption.</li>
-            </ul>
-          </li>
-          <li><strong>Business Impact Metrics:</strong>
-            <ul>
-              <li>Improved Power BI performance, reducing query load times and enhancing data refresh speeds.</li>
-              <li>Secured reporting through RLS &amp; OLS, ensuring data integrity and compliance.</li>
-              <li>Increased Power BI adoption across teams via knowledge-sharing sessions.</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+	<!-- Accenture -->
+	<div class="company-block">
+	  <div class="company-header">
+		<div><strong>Accenture</strong> — Cloud Data Engineer – Personalization Analytics | Onsite | Jun 2021 – Aug 2023</div>
+	  </div>
+	  <div class="project-title">Client: AT&T – Digital Personalization Initiative</div>
+	  <ul class="experience-details">
+		<li><strong>Data Ingestion:</strong> Engineered scalable pipelines using Kafka and Snowpipe to ingest structured and semi-structured data (~150M daily JSON events) from clickstream, campaign logs, and transactional systems into Snowflake and ADLS.</li>
+		<li><strong>Data Transformation:</strong> Developed modular dbt models (staging → mart layers) for ELT processing in Snowflake, integrating ML outputs and supporting attribution metrics across marketing and sales funnels.</li>
+		<li><strong>Workflow Orchestration:</strong> Automated ELT and reporting jobs using Apache Airflow DAGs, handling task scheduling, dependency management, and failure alerts to ensure SLA compliance.</li>
+		<li><strong>Data Modeling:</strong> Designed and maintained star schema models including fact_clickstream, fact_sales, and dim_content to support real-time KPI dashboards and A/B test reporting.</li>
+		<li><strong>Data Quality & Governance:</strong> Applied CDC and deduplication logic during ingestion and transformation; enforced schema validation and integrated business rules into staging layer pipelines.</li>
+		<li><strong>BI Enablement:</strong> Optimized Power BI semantic models using DAX Studio and Tabular Editor; created dashboards tracking conversions, churn, and campaign lift with Row-Level and Object-Level Security.</li>
+		<li><strong>DevOps & CI/CD:</strong> Implemented GitHub Actions for version-controlled deployment of dbt models and Power BI datasets, enabling seamless environment promotion and rollback.</li>
+		<li><strong>Collaboration:</strong> Worked in Agile sprints with cross-functional teams (DevOps, analysts, data scientists) to align pipeline logic with tagging, experimentation, and business goals.</li>
+	  </ul>
+	</div>
+
+
       
       <!-- Infosys -->
-      <div class="company-block">
-        <div class="company-header">
-          <div>Infosys</div>
-          <div>June 2018 - June 2021</div>
-        </div>
-        <div class="role-location">
-          <div class="role">Senior Systems Engineer</div>
-          <div class="location">Remote / Onsite</div>
-        </div>
-        <div class="project-title">Project: Global Mobility</div>
-        <ul class="experience-details">
-          <li><strong>Goal:</strong> Developed an application to track employee movement globally, including visa processing, managerial approvals, and compensation fitment.</li>
-          <li><strong>Key Contributions &amp; Responsibilities:</strong>
-            <ul>
-              <li><em>.NET Development &amp; Database Management:</em> Built .NET MVC applications with MS SQL Server backend.</li>
-              <li><em>BI Reporting &amp; Data Engineering:</em> Created critical business reports using SAP BusinessObjects &amp; Power BI; automated reporting for Global Immigration &amp; Compensation Teams.</li>
-              <li><em>SQL &amp; ETL Pipeline Development:</em> Wrote complex SQL scripts, stored procedures, and CTEs for automated reporting; built dynamic SSIS pipelines for data transformations.</li>
-              <li><em>SSAS &amp; Secure Power BI Reporting:</em> Developed SSAS Tabular Cube models, implemented RLS &amp; OLS for secure data access.</li>
-            </ul>
-          </li>
-          <li><strong>Business Impact Metrics:</strong>
-            <ul>
-              <li>Automated 60% of manual reporting tasks, enabling self-service BI adoption.</li>
-              <li>Improved issue resolution and RCA with streamlined SSIS job monitoring.</li>
-              <li>Enhanced reporting security and governance through Power BI best practices.</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
+	<div class="company-block">
+	  <div class="company-header">
+		<div><strong>Infosys Limited</strong> — Data Engineer – HR & Sales Analytics | Onsite | Jun 2018 – Jun 2021</div>
+	  </div>
+	  <div class="project-title">Project: Global HR & Sales Platforms</div>
+	  <ul class="experience-details">
+		<li><strong>Data Warehousing & Modeling:</strong> Designed star schema data models with fact/dimension tables, surrogate keys, and SCD Type 2 logic using SQL Server and Azure Synapse, improving query performance by 55% and enabling secure, regional reporting across 59 countries.</li>
+		<li><strong>ETL Pipeline Engineering:</strong> Reengineered SSIS pipelines with staging layers, change tracking, and optimized T-SQL logic; reduced master job runtime by 85% and improved reliability of daily refresh cycles.</li>
+		<li><strong>Data Quality & Validation:</strong> Built pre-load staging validation logic to enforce null handling, referential integrity, and field constraints — ensuring schema compliance and trusted data in downstream BI reporting.</li>
+		<li><strong>Cloud Modernization:</strong> Integrated legacy SSIS workflows with Azure Data Factory, Synapse, and Azure SQL to support cloud-native, modular transformation pipelines as part of BI modernization roadmap.</li>
+		<li><strong>BI & Semantic Layer:</strong> Developed centralized Power BI datasets with SSAS Tabular models, DAX measures, and secure access via Row-Level and Object-Level Security; reduced ad hoc reporting requests by 60% through self-service analytics adoption.</li>
+		<li><strong>Observability & Governance:</strong> Maintained documentation for KPIs, refresh schedules, and field-level definitions; created SLA dashboards using SQL Agent logs and performed root cause analysis (RCA) on reporting failures to improve reliability and audit readiness.</li>
+	  </ul>
+	</div>
+
     
     <!-- Academic Projects -->
     <div class="section">
-      <h2>Academic Projects</h2>
-      
-      <!-- Bay Area Traffic Prediction -->
-      <div class="project-block">
-        <h3>Bay Area Traffic Prediction</h3>
-        <ul>
-          <li><strong>Goal:</strong> Develop a machine learning model to predict hourly traffic flow on major Bay Area expressways (US-101, I-80, I-280, I-880) using historical sensor data.</li>
-          <li><strong>Data &amp; Tools:</strong>
-            <ul>
-              <li>Dataset: Caltrans PeMS (District 4) – ~15M rows over 3 months, processed to ~250k rows</li>
-              <li>Technologies: R, R Studio, Power BI</li>
-            </ul>
-          </li>
-          <li><strong>Techniques &amp; Feature Engineering:</strong>
-            <ul>
-              <li>Conducted extensive EDA in Power BI to identify traffic patterns and address ~29% missing values.</li>
-              <li>Engineered features including Day Name, Hour, Lane Count, and Weekend &amp; Peak Hour flags.</li>
-            </ul>
-          </li>
-          <li><strong>Models &amp; Evaluation:</strong>
-            <ul>
-              <li>Implemented regression models: Linear Regression, Decision Tree, Ridge, Lasso, and XGBoost.</li>
-              <li>XGBoost achieved best performance with R² = 0.95 and RMSE = 427.55.</li>
-              <li>Evaluation Metrics: RMSE, R-Squared, MAE.</li>
-            </ul>
-          </li>
-          <li><strong>Key Findings &amp; Impact:</strong>
-            <ul>
-              <li>Identified key predictors such as Avg_Total_Occupancy, Avg_Lanes_Count, Avg_Speed, and Peak_Hour_Flag.</li>
-              <li>Insights can help urban planners optimize traffic signals, manage congestion, and enhance road safety.</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      
-      <!-- Income Classification -->
-      <div class="project-block">
-        <h3>Income Classification</h3>
-        <ul>
-          <li><strong>Goal:</strong> Predict whether an individual's income is &gt;50K or ≤50K based on various demographic attributes.</li>
-          <li><strong>Data &amp; Tools:</strong>
-            <ul>
-              <li>Dataset: Adult Income Dataset</li>
-              <li>Technologies: Python, Scikit-Learn, Pandas, Seaborn, Matplotlib</li>
-            </ul>
-          </li>
-          <li><strong>Techniques &amp; Models:</strong>
-            <ul>
-              <li>Performed EDA and feature engineering to transform categorical variables and handle missing values.</li>
-              <li>Addressed class imbalance using SMOTE, ADASYN, and weighted classifiers.</li>
-              <li>Implemented models including Logistic Regression, Decision Tree, Random Forest, SVM, KNN, Naïve Bayes, QDA, Boosting (AdaBoost, Gradient Boosting), and Neural Networks (MLP).</li>
-            </ul>
-          </li>
-          <li><strong>Evaluation:</strong>
-            <ul>
-              <li>Metrics: Accuracy, F1-Score, ROC-AUC, and Confusion Matrix.</li>
-              <li>Random Forest achieved an accuracy of 89.1% with an ROC-AUC of 0.92.</li>
-            </ul>
-          </li>
-          <li><strong>Key Findings &amp; Impact:</strong>
-            <ul>
-              <li>Identified top predictors such as Education Level, Hours per Week, Capital Gains, and Marital Status.</li>
-              <li>Insights can inform HR analytics and socio-economic research on income distribution trends.</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      
-      <!-- Movie Recommendation System -->
-      <div class="project-block">
-        <h3>Movie Recommendation System</h3>
-        <ul>
-          <li><strong>Goal:</strong> Develop a personalized movie recommendation system using a hybrid of content-based and collaborative filtering techniques.</li>
-          <li><strong>Data &amp; Tools:</strong>
-            <ul>
-              <li>Dataset: The Movies Dataset (Kaggle)</li>
-              <li>Technologies: Python, Scikit-Learn, Surprise Library, NLP (TF-IDF), Cosine Similarity</li>
-            </ul>
-          </li>
-          <li><strong>Techniques &amp; Approach:</strong>
-            <ul>
-              <li>Performed EDA and feature engineering on genres, keywords, directors, and cast data.</li>
-              <li>Developed content-based filtering using TF-IDF and Cosine Similarity.</li>
-              <li>Implemented user-based and item-based collaborative filtering using SVD (Surprise Library).</li>
-              <li>Adopted a hybrid approach to mitigate the cold-start problem.</li>
-            </ul>
-          </li>
-          <li><strong>Evaluation:</strong>
-            <ul>
-              <li>Metrics: RMSE (~0.874) and MAE (~0.679) for rating predictions.</li>
-              <li>Enhanced user engagement through accurate and personalized recommendations.</li>
-            </ul>
-          </li>
-          <li><strong>Key Findings &amp; Impact:</strong>
-            <ul>
-              <li>The hybrid recommendation system provided robust and accurate movie suggestions.</li>
-              <li>Potential integration into OTT platforms like Netflix or Hulu to boost user retention.</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      
-      <!-- Indian Premier League (IPL) Prediction -->
-      <div class="project-block">
-        <h3>Indian Premier League (IPL) Prediction</h3>
-        <ul>
-          <li><strong>Goal:</strong> Predict IPL match outcomes, analyze player performances, and evaluate player auction economics using statistical modeling and machine learning.</li>
-          <li><strong>Data &amp; Tools:</strong>
-            <ul>
-              <li>Dataset: IPL Matches &amp; Ball-by-Ball Data (2008–2022) + International Player Performance Data</li>
-              <li>Technologies: Python, Scikit-Learn, Power BI</li>
-            </ul>
-          </li>
-          <li><strong>Techniques &amp; Models:</strong>
-            <ul>
-              <li>Conducted EDA and feature engineering to extract head-to-head win ratios, venue-specific performance, key player impact, and auction value insights.</li>
-              <li>Implemented classification models including Logistic Regression, Random Forest, SVM, Gradient Boosting, LDA, and QDA.</li>
-              <li>Applied hyperparameter tuning and cross-validation to optimize model performance.</li>
-            </ul>
-          </li>
-          <li><strong>Evaluation:</strong>
-            <ul>
-              <li>Metrics: Accuracy, F1-Score, and ROC-AUC.</li>
-              <li>Gradient Boosting achieved 86% accuracy post-tuning.</li>
-            </ul>
-          </li>
-          <li><strong>Key Findings &amp; Impact:</strong>
-            <ul>
-              <li>Identified crucial factors such as toss decision, venue advantage, key player influence, and auction pricing.</li>
-              <li>Insights can guide IPL teams in optimizing player auctions and match strategies.</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-    
-    <!-- Certifications -->
-    <div class="section">
-      <h2>Certifications</h2>
-      <div class="certification-block">
-        <ul>
-          <li>Microsoft Azure Fundamentals (AZ-900)</li>
-          <li>Microsoft Azure Data Fundamentals (DP-900)</li>
-          <li>Microsoft Azure Data Engineer Associate (DP-203)</li>
-          <li>Power BI Data Analyst Associate (PL-300)</li>
-          <li>The President’s Leadership Fellows Program – San Francisco State University</li>
-        </ul>
-      </div>
-    </div>
-    
-  </div>
+	  <h2>Academic Projects</h2>
+
+	  <!-- Bay Area Traffic Prediction -->
+	  <div class="project-block">
+		<h3>Bay Area Traffic Prediction</h3>
+		<ul class="experience-details">
+		  <li><strong>Goal:</strong> Forecast hourly traffic volume on Bay Area expressways using real-time and historical sensor data.</li>
+		  <li><strong>Tools & Tech:</strong> R, Power BI, Caltrans PeMS (~15M rows → 250K processed); regression modeling and EDA.</li>
+		  <li><strong>Approach:</strong> Engineered peak-hour and temporal features; applied regression models (XGBoost, Lasso, Ridge); XGBoost achieved R² = 0.95, RMSE = 427.5.</li>
+		  <li><strong>Impact:</strong> Identified key predictors like occupancy and speed; proposed dashboard insights to inform traffic signal optimization and urban safety planning.</li>
+		</ul>
+	  </div>
+
+	  <!-- Income Classification -->
+	  <div class="project-block">
+		<h3>Income Classification</h3>
+		<ul class="experience-details">
+		  <li><strong>Goal:</strong> Classify whether an individual's income is >50K using demographic data and statistical models.</li>
+		  <li><strong>Tools & Tech:</strong> Python, Scikit-Learn, Pandas, SMOTE, Seaborn, Adult Income dataset.</li>
+		  <li><strong>Approach:</strong> Applied data cleaning, categorical encoding, and SMOTE balancing; tested ensemble, tree-based, and neural models.</li>
+		  <li><strong>Impact:</strong> Random Forest achieved 89.1% accuracy, AUC = 0.92; identified key features like education level and capital gains for income prediction.</li>
+		</ul>
+	  </div>
+
+	  <!-- Movie Recommendation System -->
+	  <div class="project-block">
+		<h3>Movie Recommendation System</h3>
+		<ul class="experience-details">
+		  <li><strong>Goal:</strong> Build a hybrid movie recommender using content-based filtering and collaborative algorithms.</li>
+		  <li><strong>Tools & Tech:</strong> Python, Scikit-Learn, Surprise (SVD), TF-IDF, Cosine Similarity, Kaggle Movies dataset.</li>
+		  <li><strong>Approach:</strong> Used metadata features (genre, keywords) for content filtering; applied SVD for collaborative filtering; combined both for hybrid output.</li>
+		  <li><strong>Impact:</strong> Achieved RMSE ~0.874; proposed a scalable framework for OTT platforms to enhance user retention via personalization.</li>
+		</ul>
+	  </div>
+
+	  <!-- Indian Premier League (IPL) Prediction -->
+	  <div class="project-block">
+		<h3>Indian Premier League (IPL) Prediction</h3>
+		<ul class="experience-details">
+		  <li><strong>Goal:</strong> Predict IPL match outcomes and player value insights using classification models and auction analytics.</li>
+		  <li><strong>Tools & Tech:</strong> Python, Scikit-Learn, Power BI, IPL match and auction data (2008–2022).</li>
+		  <li><strong>Approach:</strong> Built features on player impact, venue bias, and head-to-head stats; implemented Gradient Boosting, SVM, Random Forest; tuned via grid search.</li>
+		  <li><strong>Impact:</strong> Achieved 86% accuracy; proposed auction strategy recommendations and player valuation insights for team management.</li>
+		</ul>
+	  </div>
+	</div>
+
+</div>
 
 
 </body></html>
