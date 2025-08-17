@@ -73,7 +73,7 @@ export const CERTIFICATIONS = [
 
 export const EXPERIENCES = [
   {
-    year: "January 2025 - August 2025",
+    year: "Jan 2025 - Aug 2025",
     role: "AI & Data Science Intern",
     company: "Stanford Department of Medicine",
     description: `Developing AI-driven solutions for clinical trial matching and patient engagement.`,
