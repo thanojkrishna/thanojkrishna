@@ -6,14 +6,14 @@ Cloud Data Engineer • AI Engineering Enthusiast • Azure & Snowflake Certifie
 
 ---
 
-## 🚀 About Me
+## About Me
 
 I’m a data engineering specialist with 6+ years of experience building cloud-native data platforms, orchestrating scalable ETL pipelines, and integrating ML models into production workflows.  
 My work spans enterprise analytics, LLM-powered solutions (RAG pipelines, vector search), and real-time reporting architectures.
 
 ---
 
-## 🧠 Core Skills
+## Core Skills
 
 - **Languages & Scripting:** Python, SQL, R, Bash, C++
 - **Data Engineering & Cloud:** Databricks, Snowflake, Azure Synapse, ADF, SSIS, Delta Lake
