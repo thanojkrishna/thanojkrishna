@@ -47,7 +47,7 @@ const Hero = () => {
           animate="visible"
           className="text-3xl bg-gradient-to-r from-pink-400 via-indigo-500 to-purple-500 bg-clip-text text-transparent mb-4"
         >
-          Data Enthusiast
+          Data Specialist
         </motion.span>
 
         <motion.p

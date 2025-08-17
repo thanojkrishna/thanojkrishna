@@ -3,16 +3,17 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `Data professional with Masters in Statistical Data Science and 5+ years of experience in Machine Learning, Statistical Analysis, and BI. Skilled in building scalable ETL pipelines, optimizing data models, and crafting dynamic dashboards.`
+export const HERO_CONTENT = `Data Engineering specialist with 6+ years of experience fueling enterprise data infrastructure and assets to deliver impactful solutions that drive business growth. Skilled in cloud-native analytics, building AI agents with LLMs to automate workflows & accelerate decision-making.`;
+
 export const ABOUT_TEXT = [
-  'Data Scientist & Data Engineer with 5+ years of experience in machine learning, statistical modeling, and scalable data solutions.',
-  'Expert in Python, SQL, and R, specializing in predictive analytics, A/B testing, and ML model development.',
-  'Certified Azure Data Engineer & Power BI Analyst, experienced in cloud-based ETL, big data processing, and data warehousing.',
-  'Proficient in Databricks, Snowflake, SSIS, and Azure Synapse for building efficient ETL workflows and analytical models.',
-  'Hands-on with Power BI & Tableau, creating interactive dashboards and KPI-driven insights for business decision-making.',
-  'Passionate about NLP, LLMs, and AI-driven solutions, integrating machine learning into business intelligence applications.',
-  'Teaching Assistant & Math Tutor with expertise in statistics, probability, and ML, mentoring students in data science concepts.',
-  'Active mentor at the Data Science Society, leading workshops on SQL, Python, Power BI, and AI applications.'
+  'Data Engineering specialist with 6+ years of experience delivering scalable pipelines, cloud-native architectures, and AI-driven analytics.',
+  'Skilled in Python, SQL, and R for data modeling, ML integration, and predictive analytics across enterprise systems.',
+  'Certified Snowflake/Azure Data Engineer and Power BI Analyst, experienced in building secure, governed ETL workflows on cloud platforms.',
+  'Hands-on with Databricks, Snowflake, SSIS, and Azure Synapse for orchestrating batch and real-time data solutions.',
+  'Designed and deployed Power BI and Tableau dashboards enabling business stakeholders to make insight-driven decisions.',
+  'Building AI agents using LLMs to automate workflows, power personalization, and accelerate enterprise intelligence.',
+  'Graduate Teaching Assistant with strong foundations in statistics, probability, and ML, mentoring students in applied analytics.',
+  'Mentor and leader at Data Science Society, driving community learning through workshops on Python, SQL, Power BI, and AI.'
 ];
 
 
@@ -21,44 +22,46 @@ export const ABOUT_TEXT = [
 
 export const CAREER_TIMELINE = [
   {
-    title: "Data Science Intern",
+    title: "AI & Data Science Intern",
     subtitle: "Stanford Department of Medicine",
-    date: "Jan 2024 - May 2025",
+    date: "Jan 2024 - Aug 2025",
     type: "work",
-    skills: ["Python", "Data Analysis", "LLMs"]
+    skills: ["LLMs", "OpenAI APIs", "Python", "Statistical Analysis"]
   },
-    {
+  {
     title: "MS in Statistical Data Science",
     subtitle: "San Francisco State University, GPA 3.96",
     date: "Aug 2023 - May 2025",
     type: "education",
-    skills: ["Probability & Statistics","Statistical Modelling", "Machine Learning"]
+    skills: ["Statistical Modeling", "Machine Learning", "Cloud Data Engineering", "Deep Learning"]
   },
-    {
-    title: "Application Development Senior Analyst",
-    subtitle: "Accenture",
+  {
+    title: "Cloud Data Engineering Specialist",
+    subtitle: "Accenture (Client: AT&T)",
     date: "Jun 2021 - Aug 2023",
     type: "work",
-    skills: ["Senior BI Developer", "Data Engineering", "ETL Pipelines"]
+    skills: ["Databricks", "Snowflake", "Apache Airflow", "dbt", "Power BI", "ML Pipelines", "MLOps"]
   },
-    {
-    title: "Senior Systems Engineer",
+  {
+    title: "Data Engineer – HR & Sales Analytics",
     subtitle: "Infosys Limited",
     date: "Jun 2018 - Jun 2021",
     type: "work",
-    skills: ["BI Developer", "Data Analysis", "SQL Development"]
+    skills: ["SSIS", "Azure Synapse", "SQL Server", "Data Modeling"]
   },
   {
     title: "Bachelor's in Mechanical Engineering",
     subtitle: "Vellore Institute of Technology, GPA 3.99",
     date: "May 2018",
     type: "education",
-    skills: ["Mathematics", "Data Structues & Algorithms","C++"]
+    skills: ["Mathematics", "Data Structures & Algorithms", "C++"]
   }
 ];
 
 
+
 export const CERTIFICATIONS = [
+  'Snowflake SnowPro Core Certification',
   'Azure Data Engineer Associate (DP-203)',
   'Power BI Data Analyst Associate (PL-300)',
   'Azure Data Fundamentals (DP-900)',
@@ -67,10 +70,11 @@ export const CERTIFICATIONS = [
 ];
 
 
+
 export const EXPERIENCES = [
   {
-    year: "January 2025 - Present",
-    role: "Data Science Intern",
+    year: "January 2025 - August 2025",
+    role: "AI & Data Science Intern",
     company: "Stanford Department of Medicine",
     description: `Developing AI-driven solutions for clinical trial matching and patient engagement.`,
     technologies: ["Python", "OpenAI APIs", "Perplexity AI APIs", "Statistical Analysis"],
@@ -82,7 +86,7 @@ export const EXPERIENCES = [
   },
   {
     year: "Jun 2021 - Aug 2023",
-    role: "Application Development Senior Analyst",
+    role: "Cloud Data Engineering Specialist",
     company: "Accenture",
     description: `Led BI and data engineering projects to enhance business reporting and insights.`,
     technologies: ["Databricks", "Snowflake", "Power BI", "Azure Synapse", "SQL"],
@@ -112,7 +116,7 @@ export const EXPERIENCES = [
   },
   {
     year: "Jul 2020 - Jun 2021",
-    role: "Senior Systems Engineer",
+    role: "Data Engineer",
     company: "Infosys Limited",
     description: `Led BI solution development and reporting automation to streamline business processes and enhance data reliability.`,
     technologies: ["SSIS", "SSAS Tabular Cubes", "Power BI", "SQL"],

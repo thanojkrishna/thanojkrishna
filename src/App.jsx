@@ -8,7 +8,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 
 const App = () => {
-  const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'dark');
+  const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'light');
 
   useEffect(() => {
     document.documentElement.classList.remove('light', 'dark');
