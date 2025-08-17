@@ -43,7 +43,7 @@ Modeled match outcomes and player auction economics using ensemble classifiers a
 ## 🎓 Education
 
 **San Francisco State University**  
-_M.S. in Statistical Data Science_ — GPA: 3.96 (Expected May 2025)
+_M.S. in Statistical Data Science_ — GPA: 3.96 
 
 **Vellore Institute of Technology**  
 _B.S. in Mechanical Engineering_ — GPA: 3.99
